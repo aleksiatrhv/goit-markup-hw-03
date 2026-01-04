@@ -229,14 +229,18 @@ body {
     height: auto;
 }
 
-.team-list li h3.sub-title {
-    margin: 32px 0 8px;
+.team-list-meta .sub-title {
+    margin: 0 0 8px;
     text-align: center;
 }
 
-.team-list li p.text {
-    margin: 0 0 32px;
+.team-list-meta .text {
+    margin: 0;
     text-align: center;
+}
+
+.team-list-meta {
+    padding: 32px 0;
 }
 
 .portfolio-list li h3.sub-title {
@@ -263,7 +267,7 @@ body {
     color: var(--white-color);
 }
 
-.visually-hidden {
+.visually-hidden:not(:focus):not(:active) {
     position: absolute;
     width: 1px;
     height: 1px;
@@ -272,4 +276,7 @@ body {
     overflow: hidden;
     clip: rect(0, 0, 0, 0);
     border: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
 }
