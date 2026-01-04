@@ -116,7 +116,7 @@ body {
 
 .logotype {
     margin-right: 76px;
-    display: block;
+    display: inline-block;
     transition: var(--transition-hover);
 }
 
@@ -253,8 +253,16 @@ body {
     background-color: var(--primary-color);
 }
 
+.footer .logotype {
+    margin-bottom: 16px;
+}
+
 .footer p {
     max-width: 285px;
-    margin: 16px 0 0;
+    margin: 0;
     color: var(--white-color);
+}
+
+.visually-hidden {
+    display: none;
 }
