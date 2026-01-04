@@ -198,13 +198,23 @@ body {
     flex-wrap: wrap;
 }
 
-.portfolio-list,
 .team-list {
     width: 100%;
     list-style: none;
     padding: 0;
     margin: 0;
     display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+
+.portfolio-list {
+    width: 100%;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
 }
