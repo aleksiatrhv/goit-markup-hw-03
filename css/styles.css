@@ -113,7 +113,8 @@ body {
     padding: 0;
 }
 
-.header-menu-item {
+.header-menu-link {
+    display: block;
     padding: 24px 0;
 }
 
